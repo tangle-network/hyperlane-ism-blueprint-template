@@ -1,0 +1,11 @@
+{
+  "name": "hyperlane-ism-blueprint-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tangle-network/hyperlane-ism-blueprint-template.git",
+  "author": "Drew Stone <drewstone329@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@hyperlane-xyz/core": "^5.7.0"
+  }
+}

@@ -1,0 +1,2 @@
+@openzeppelin-upgradeable/=contracts/lib/tnt-core/lib/openzeppelin-contracts-upgradeable/contracts/
+@openzeppelin/=contracts/lib/tnt-core/lib/openzeppelin-contracts/
