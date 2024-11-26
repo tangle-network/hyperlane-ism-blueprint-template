@@ -23,7 +23,7 @@ default = ["std"]
 std = ["gadget-sdk/std"]
 
 [build-dependencies]
-blueprint-metadata = "0.1.6"
+blueprint-metadata = "0.1.7"
 
 [lib]
 path = "src/lib.rs"
