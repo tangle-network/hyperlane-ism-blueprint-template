@@ -16,7 +16,7 @@ FROM debian:bookworm-slim AS runtime
 WORKDIR /app
 COPY --from=chef /app/target/release/hyperlane-ism-blueprint-template /usr/local/bin
 
-LABEL org.opencontainers.image.authors="Drew Stone <drewstone329@gmail.com>"
+LABEL org.opencontainers.image.authors="Tangle Network <drew@tangle.tools>"
 LABEL org.opencontainers.image.description="A Tangle Blueprint template for building Hyperlane ISMs"
 LABEL org.opencontainers.image.source="https://github.com/tangle-network/hyperlane-ism-blueprint-template"
 LABEL org.opencontainers.image.licenses="MIT OR Apache-2.0"

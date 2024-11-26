@@ -3,7 +3,7 @@ name = "hyperlane-ism-blueprint-template"
 version = "0.1.0"
 edition = "2021"
 description = "A Tangle Blueprint template for building Hyperlane ISMs"
-authors = ["Drew Stone <drewstone329@gmail.com>"]
+authors = ["Tangle Network <drew@tangle.tools>"]
 license = "MIT OR Apache-2.0"
 homepage = "https://tangle.tools"
 repository = "https://github.com/tangle-network/hyperlane-ism-blueprint-template"
@@ -13,21 +13,14 @@ keywords = ["tangle", "blueprint", "avs"]
 rust-version = "1.81"
 
 [dependencies]
-tracing = "0.1"
-async-trait = "0.1"
 color-eyre = "0.6"
-structopt = "0.3.26"
-tokio = { version = "^1", default-features = false, features = ["full"] }
-tracing-subscriber = { version = "0.3", features = ["parking_lot", "env-filter"] }
+gadget-sdk = "0.5.1"
+tracing = "0.1"
+tokio = "1.41.1"
 
 [features]
 default = ["std"]
 std = ["gadget-sdk/std"]
-
-[dependencies.gadget-sdk]
-version = "0.3.0"
-default-features = false
-features = ["getrandom"]
 
 [build-dependencies]
 blueprint-metadata = "0.1.6"

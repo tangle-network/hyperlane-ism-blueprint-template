@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT OR Apache-2.0
 pragma solidity >=0.8.13;
 
-import "contracts/lib/tnt-core/src/BlueprintServiceManagerBase.sol";
+import "tnt-core/src/BlueprintServiceManagerBase.sol";
 
 /**
  * @title HelloBlueprint
