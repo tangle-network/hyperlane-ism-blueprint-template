@@ -1,3 +1,4 @@
-@openzeppelin/=node_modules/@openzeppelin/
-@openzeppelin/contracts-upgradeable/=node_modules/@openzeppelin/contracts-upgradeable/
+@hyperlane-xyz/=node_modules/@hyperlane-xyz
+@openzeppelin/contracts-upgradeable/=dependencies/@openzeppelin-contracts-upgradeable-4.9.3/
+@openzeppelin/contracts/=dependencies/@openzeppelin-contracts-4.9.3/
 tnt-core/=dependencies/tnt-core-0.1.0/src

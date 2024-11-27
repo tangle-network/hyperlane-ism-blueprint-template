@@ -10,5 +10,7 @@ auto_detect_remappings = true
 
 [dependencies]
 tnt-core = { version = "0.1.0", git = "https://github.com/tangle-network/tnt-core.git", branch = "main" }
+"@openzeppelin-contracts" = "4.9.3"
+"@openzeppelin-contracts-upgradeable" = "4.9.3"
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

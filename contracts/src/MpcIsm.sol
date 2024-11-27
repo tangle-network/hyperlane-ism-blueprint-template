@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: MIT OR Apache-2.0
 pragma solidity >=0.8.13;
 
-import {IInterchainSecurityModule} from "node_modules/@hyperlane-xyz/core/contracts/interfaces/IInterchainSecurityModule.sol";
-import {Address} from "node_modules/@openzeppelin/contracts/utils/Address.sol";
-import {Message} from "node_modules/@hyperlane-xyz/core/contracts/libs/Message.sol";
-import {Mailbox} from "node_modules/@hyperlane-xyz/core/contracts/Mailbox.sol";
-import {PackageVersioned} from "node_modules/@hyperlane-xyz/core/contracts/PackageVersioned.sol";
+import {IInterchainSecurityModule} from "@hyperlane-xyz/core/contracts/interfaces/IInterchainSecurityModule.sol";
+import {Address} from "@openzeppelin/contracts/utils/Address.sol";
+import {Message} from "@hyperlane-xyz/core/contracts/libs/Message.sol";
+import {Mailbox} from "@hyperlane-xyz/core/contracts/Mailbox.sol";
+import {PackageVersioned} from "@hyperlane-xyz/core/contracts/PackageVersioned.sol";
 
 contract MpcIsm is IInterchainSecurityModule, PackageVersioned {
     using Message for bytes;
