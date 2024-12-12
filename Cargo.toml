@@ -14,7 +14,7 @@ rust-version = "1.81"
 
 [dependencies]
 color-eyre = "0.6"
-gadget-sdk = "0.5.1"
+gadget-sdk = "0.6.2"
 tracing = "0.1"
 tokio = "1.41.1"
 
